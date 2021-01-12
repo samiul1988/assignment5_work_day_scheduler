@@ -33,12 +33,13 @@ THEN the saved events persist
 ## My Actions and Notes
 
 * Obtained base file from Assignment Description Page (link).
-* To be addedd
 * Basic considerations were as follows:
-    * I used one html page for all the views, and used javascript to selectively display or hide appropriate views when different buttons are clicked.
-    * When the user clicks "Start Quiz" button, a timer gets started and questions are displayed in sequence.
-    * A message is shown at the bottom of the quiz panel showing "Correct!" or "Wrong!" after an answer option is clicked.
-    * At any point, if the "View high scores" button is clicked, then the high score table is displayed and the quiz gets reset.
+    * Used css and html base file codes wherever possible.
+    * The time range is from 9 am to 5 pm (standard business hours).
+    * Used moment js for date and time related calculations.
+    * I designed the logic in a way that the user cannot enter text for the past time blocks. He/she can enter text only for present/future time blocks. Therefore, to test the app, the user should open the app within standard business hours for best experience. 
+    * The localStorage item is reset if the app is opened the next day.
+    * The staus colors get updated in every 30 minutes (I chose 30 mins as a reasonable period, can be changed to other period depending on the usage of the app).
 
 ### Repository URL
 [Click here to see the final outcome](https://samiul1988.github.io/assignment5_work_day_scheduler/)
